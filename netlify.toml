@@ -1,0 +1,9 @@
+# NexusVibe Cloud Routing Infrastructure
+
+[[edge_functions]]
+  path = "/*"
+  function = "gateway"
+
+[build]
+  publish = "public"
+  command = "npm run build"
